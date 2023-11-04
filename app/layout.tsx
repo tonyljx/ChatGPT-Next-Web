@@ -62,6 +62,8 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script defer data-domain="runningpig.top" src="https://plausible.io/js/script.js"></script>
+
       </head>
       <body>{children}</body>
     </html>
